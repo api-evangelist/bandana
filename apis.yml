@@ -1,8 +1,14 @@
 aid: bandana
 name: Bandana
-description: 'Bandana is a company surfaced as a portfolio company of craft-ventures, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. Sector: marketplace. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Bandana (operated by Workwise Solutions Inc.) is a two-sided marketplace and job-search
+  platform for hourly and entry-level workers. Job seekers get free tools to find better-paying local
+  jobs with benefits, generate resumes, auto-match to openings via Bandana Apply, and track applications;
+  employers post jobs for free, reach local talent, promote listings across social platforms, and use a
+  built-in ATS or integrate their existing hiring flow. Backed by Craft Ventures and General Catalyst,
+  Bandana operates across California, New York, New Jersey, Connecticut, Chicago, and Washington, D.C.
+  As of this profile Bandana publishes no public developer/API surface — no docs portal, OpenAPI, GitHub
+  organization, or /.well-known discovery documents were found; this record captures its public identity
+  and product links.'
 url: https://raw.githubusercontent.com/api-evangelist/bandana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,44 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-18'
+  status: no-developer-surface
+  probed:
+    developer_subdomain: https://developer.bandana.com (000/unreachable)
+    docs_subdomain: https://docs.bandana.com (000/unreachable)
+    api_subdomain: https://api.bandana.com (404)
+    well_known_security_txt: 404
+    well_known_openid_configuration: 404
+    well_known_oauth_authorization_server: 404
+    well_known_api_catalog: 404
+    well_known_ai_plugin: 404
+    llms_txt: https://bandana.com/llms.txt (404)
+    github_org_bandana: 404
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://bandana.com/apple-touch-icon.png
 tags:
 - Company
 - Marketplace
+- Jobs
+- Hiring
+- Recruiting
+- Hourly Workers
+- Employment
+- Careers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +64,19 @@ maintainers:
 common:
 - type: Website
   url: https://bandana.com
+- type: About
+  url: https://bandana.com/about
+- type: EmployerPortal
+  url: https://business.bandana.com
+- type: Resources
+  url: https://resources.bandana.com
+- type: Support
+  url: https://bandana.com/contact
+- type: SignUp
+  url: https://bandana.com/auth/signin
+- type: TermsOfService
+  url: https://bandana.com/terms
+- type: PrivacyPolicy
+  url: https://bandana.com/privacy
+- type: MobileApp
+  url: https://apps.apple.com/us/app/bandana-job-search/id6755500772
