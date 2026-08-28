@@ -31,6 +31,17 @@ x-enrichment:
     well_known_ai_plugin: 404
     llms_txt: https://bandana.com/llms.txt (404)
     github_org_bandana: 404
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
